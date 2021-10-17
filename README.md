@@ -4,9 +4,9 @@
 
 ## Bibliotecas 
 
-[JavaScript]() 
-[NodeJS]()
-[Cypress]()
+* [JavaScript]() 
+* [NodeJS]()
+* [Cypress]()
 
 
 
