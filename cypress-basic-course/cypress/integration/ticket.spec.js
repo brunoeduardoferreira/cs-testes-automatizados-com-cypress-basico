@@ -20,12 +20,21 @@ describe("Tickets", () => {
   });
 
   // Teste para interagir com RadioButton
-  it.only("select 'vip' ticket type ", () => {
+  it("select 'vip' ticket type", () => {
     cy.get("#vip").check();
   });
 
-  it("", () => {
+  // Testes para interagir com checkboxes
+  // Checkbox isolado
+  it("selects 'social media' checkbox ", () => {
+    cy.get("#social-media").check();
+  });
 
+  // vários checkboxes
+  it.only("selects 'friend', and 'publication', then uncheck 'friend'", () => {
+    cy.get("#friend").check();
+    cy.get("#publication").check();
+    cy.get("#social-media").uncheck();
   });
 
   it("has 'TICKETBOX' header's heading", () => {
