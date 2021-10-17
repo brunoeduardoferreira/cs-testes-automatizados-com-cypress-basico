@@ -1,0 +1,20 @@
+{
+  "name": "cypress-basic-course",
+  "version": "1.0.0",
+  "description": "Basic Cypress Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "automation",
+    "e2e"
+  ],
+  "author": "Bruno Eduardo de Moura Ferreira",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.6.0"
+  }
+}

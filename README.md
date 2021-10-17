@@ -1,2 +1,18 @@
-# cs-testes-automatizados-com-cypress-basico
- Testes Automatizados com Cypress - Básico
+# Testes Automatizados com Cypress - Básico
+
+
+
+## Bibliotecas 
+
+[JavaScript]() 
+[NodeJS]()
+[Cypress]()
+
+
+
+## Rodando 
+
+```bash
+$ npx cypress open
+
+```
