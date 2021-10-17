@@ -15,8 +15,17 @@ describe("Tickets", () => {
   });
 
   // Teste de preencher campo do tipo select  
-  it.only("select two tickets", () => {
+  it("select two tickets", () => {
     cy.get("#ticket-quantity").select("3");
+  });
+
+  // Teste para interagir com RadioButton
+  it.only("select 'vip' ticket type ", () => {
+    cy.get("#vip").check();
+  });
+
+  it("", () => {
+
   });
 
   it("has 'TICKETBOX' header's heading", () => {
