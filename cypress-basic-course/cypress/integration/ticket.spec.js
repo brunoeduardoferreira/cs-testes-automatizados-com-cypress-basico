@@ -3,7 +3,7 @@ describe("Tickets", () => {
   beforeEach(() => cy.visit("https://ticket-box.s3.eu-central-1.amazonaws.com/index.html"));
 
   // teste que irá preencher os campos de Texto da Aplicação
-  it.only("fills all the text input fields", () => {
+  it("fills all the text input fields", () => {
     const firstName = "Bruno";
     const lastName = "Ferreira"
 
@@ -14,6 +14,10 @@ describe("Tickets", () => {
     cy.get("#signature").type(`${firstName} ${lastName}`);
   });
 
+  // Teste de preencher campo do tipo select  
+  it.only("select two tickets", () => {
+    cy.get("#ticket-quantity").select("3");
+  });
 
   it("has 'TICKETBOX' header's heading", () => {
 
