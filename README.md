@@ -38,7 +38,7 @@ $ npx cypress open
 | ✔️      | RadioButton | select 'vip' ticket type                                  | Seleciona o valor vip no campo RadioButton                                       |
 | ✔️      | CheckBox    | selects 'social media' checkbox                           | Seleciona o checkbox social media                                                |
 | ✔️      | CheckBox    | selects 'friend', and 'publication', then uncheck 'friend | Seleciona os checkboxes friend e publication e tira a seleção do ckeckbox friend |
-| ❌      |             |                                                           |                                                                                  |
+| ✔️      | header h1   | has 'TICKETBOX' header's heading                          | Faz uma verificação no Header > h1 para ver se está escrito TICKETBOX            |
 | ❌      |             |                                                           |                                                                                  |
 | ❌      |             |                                                           |                                                                                  |
 | ❌      |             |                                                           |                                                                                  |
