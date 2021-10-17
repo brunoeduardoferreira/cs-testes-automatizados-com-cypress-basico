@@ -26,18 +26,41 @@ describe("Tickets", () => {
 
   // Testes para interagir com checkboxes
   // Checkbox isolado
-  it("selects 'social media' checkbox ", () => {
+  it("selects 'social media' checkbox", () => {
     cy.get("#social-media").check();
   });
 
   // vários checkboxes
-  it.only("selects 'friend', and 'publication', then uncheck 'friend'", () => {
+  it("selects 'friend', and 'publication', then uncheck 'friend'", () => {
     cy.get("#friend").check();
     cy.get("#publication").check();
     cy.get("#social-media").uncheck();
   });
 
+  // Faz a verificação ( Assertion ) se o componente do header h1 contem o texto TICKETBOX
   it("has 'TICKETBOX' header's heading", () => {
-
+    cy.get("header h1").should("contain", "TICKETBOX");
   });
+
+  it.only("alerts on invalid email", () => {
+    cy.get("#email")
+      .as("email") // da um alias para o elemento
+      .type("brunoemf-gmail.com");
+
+    cy.get("#email.invalid")
+      .should("exist");
+
+    cy.get("@email")
+      .clear()
+      .type("brunoemf@gmail.com")
+
+    cy.get("#email.invalid").should("not.exist");
+  });
+
+  /* 
+ it.only("", () => {
+    cy.get("").should("", "");
+  });
+*/
+
 })
