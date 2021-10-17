@@ -6,8 +6,9 @@
 
 
 
-## Bibliotecas 
+## 🧰 Ferramentas, Frameworks e Bibliotecas 
 
+* [Visual Studio Code]()
 * [JavaScript]() 
 * [NodeJS]()
 * [Cypress]()
@@ -21,7 +22,7 @@ $ npx cypress open
 
 ```
 
-## Sobre os Testes
+## 🚀 Sobre os Testes
 
 
 
@@ -52,12 +53,12 @@ $ npx cypress open
 ### 🔗 Referências Oficiais do Cypress
 - [Instalação do Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements)
 - [Inicialização do Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress#Opening-Cypress)
-- [Visiatando uma URL Remota](https://docs.cypress.io/api/commands/visit#Syntax)
+- [Visitando uma URL Remota](https://docs.cypress.io/api/commands/visit#Syntax)
 - [Digitando em elementos do DOM](https://docs.cypress.io/api/commands/type#Syntax)
 - [Selecionando uma opção de um select](https://docs.cypress.io/api/commands/select#Syntax)
 - [Marcando CheckBoxes e RadioButtons](https://docs.cypress.io/api/commands/check#Syntax)
 - [Desmarcando CheckBoxes](https://docs.cypress.io/api/commands/uncheck#Syntax)
-- [Assertions - Documentação Oficial](https://docs.cypress.io/guides/references/assertions#Length)
+- [Assertions](https://docs.cypress.io/guides/references/assertions#Length)
 - [Comandos Customizados](https://docs.cypress.io/api/cypress-api/custom-commands#Syntax)
 - [Pare de usar Page Objects e comece a utilizar ações da aplicação](https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/)
 - [Executando Testes em modo headless](https://docs.cypress.io/guides/guides/command-line#Commands)
