@@ -5,6 +5,9 @@
 # Testes Automatizados com Cypress - Básico
 
 ## 🚀 Sobre os Testes
+<p>Foi criada uma suite de testes para que página de Tickets seja testada onde os campos são preeenchidos automaticamente é verificada a obrigatoriedade dos campos e também são feitas validações quanto aos botões e textos que são criados dinamicamente no preenchimneto do formulário. </p>
+
+<br/>
 
 ## 🧰 Ferramentas, Frameworks e Bibliotecas 
 
@@ -13,14 +16,14 @@
 * [NodeJS](https://nodejs.org/en/)
 * [Cypress](https://www.cypress.io/)
 
+<br/>
+
 ## 🧪 Rodando os Testes 
 
 🌐 URL Testada : https://ticket-box.s3.eu-central-1.amazonaws.com/index.html
 
 <div align="center" width="600px">
-
    <img src="https://github.com/brunoeduardoferreira/cs-testes-automatizados-com-cypress-basico/blob/main/assets/image2.png" />
-
 </div>
 
 ### 🟢 Rodando os testes em Modo interativo
@@ -28,15 +31,11 @@
 ```bash
 # Abre o Cypress em modo interativo e executa os testes
 $ npx cypress open
-
 ```
 
 <div align="center" width="600px">
-
    <img src="https://github.com/brunoeduardoferreira/cs-testes-automatizados-com-cypress-basico/blob/main/assets/image1.png" />
-
 </div>
-
 
 ### 🟢 Rodando os Testes em Headless
 
