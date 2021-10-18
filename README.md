@@ -5,7 +5,7 @@
 # Testes Automatizados com Cypress - Básico
 
 ## 🚀 Sobre os Testes
-<p>Foi criada uma suite de testes para que página de Tickets seja testada onde os campos são preeenchidos automaticamente é verificada a obrigatoriedade dos campos e também são feitas validações quanto aos botões e textos que são criados dinamicamente no preenchimneto do formulário. </p>
+<p>Foi criada uma suite de testes para que página de Tickets seja testada onde os campos são preeenchidos automaticamente é verificada a obrigatoriedade dos campos e também são feitas validações quanto aos botões e textos que são criados dinamicamente no preenchimento do formulário. </p>
 
 <br/>
 
@@ -137,3 +137,6 @@ Done in 39.54s.
 
 ### 🔗 Referência Oficial de Integração Contínua com GitLab 
 - [Começando com integração continua no GitLab](https://docs.gitlab.com/ee/ci/#getting-started)
+
+### Curso 
+- [Udemy - Curso Testes Automatizados com cypress - Básico](https://www.udemy.com/course/testes-automatizados-com-cypress-basico/)
