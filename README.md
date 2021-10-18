@@ -4,17 +4,24 @@
 
 # Testes Automatizados com Cypress - Básico
 
-
+## 🚀 Sobre os Testes
 
 ## 🧰 Ferramentas, Frameworks e Bibliotecas 
 
-* [Visual Studio Code]()
-* [JavaScript]() 
-* [NodeJS]()
-* [Cypress]()
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) 
+* [NodeJS](https://nodejs.org/en/)
+* [Cypress](https://www.cypress.io/)
 
+## 🧪 Rodando os Testes 
 
-## Rodando os Testes 
+🌐 URL Testada : https://ticket-box.s3.eu-central-1.amazonaws.com/index.html
+
+<div align="center" width="600px">
+
+   <img src="https://github.com/brunoeduardoferreira/cs-testes-automatizados-com-cypress-basico/blob/main/assets/image2.png" />
+
+</div>
 
 ### 🟢 Rodando os testes em Modo interativo
 
@@ -113,33 +120,6 @@ $ cypress run
 
 Done in 39.54s.
 ```
-
-
-## 🚀 Sobre os Testes
-
-
-
-
-## 🧪 Testes Executados 
-
-🌐 URL Testada : https://ticket-box.s3.eu-central-1.amazonaws.com/index.html
-
-| Status | Objects     | it                                                        | Description                                                                      |
-| ------ | ----------- | --------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| ✔️      | Inputs      | fills all the text input fields                           | Preenche todos os Campos de Input                                                |
-| ✔️      | Select      | select two tickets                                        | Seleciona o valor 2 no campo Select                                              |
-| ✔️      | RadioButton | select 'vip' ticket type                                  | Seleciona o valor vip no campo RadioButton                                       |
-| ✔️      | CheckBox    | selects 'social media' checkbox                           | Seleciona o checkbox social media                                                |
-| ✔️      | CheckBox    | selects 'friend', and 'publication', then uncheck 'friend | Seleciona os checkboxes friend e publication e tira a seleção do ckeckbox friend |
-| ✔️      | header h1   | has 'TICKETBOX' header's heading                          | Faz uma verificação no Header > h1 para ver se está escrito TICKETBOX            |
-| ❌      |             |                                                           |                                                                                  |
-| ❌      |             |                                                           |                                                                                  |
-| ❌      |             |                                                           |                                                                                  |
-| ❌      |             |                                                           |                                                                                  |
-| ❌      |             |                                                           |                                                                                  |
-| ❌      |             |                                                           |                                                                                  |
-| ❌      |             |                                                           |                                                                                  |
-| ❌      |             |                                                           |                                                                                  |
 
 ## 🔗 Referências
 
